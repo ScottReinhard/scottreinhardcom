@@ -154,10 +154,17 @@ h2 {
 
 }
 
-a, a:visited {
-	text-decoration: none;
-	color: #2e639e;
+h2 a {
+	font-size: inherit !important;
+
 }
+
+a, a:visited {
+	text-decoration: underline;
+	color: inherit;
+	font-size: inherit;
+}
+
 a:hover {
 	text-decoration: underline;
 }
@@ -239,7 +246,7 @@ html[xmlns] .clearfix {
 }
 
 .solidBackground {
-	background-color: rgba(0,0,255,1);
+	background-color: rgba(20,20,20,1);
 }
 
 .header1 {
